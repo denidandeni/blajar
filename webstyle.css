@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+        h1 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        p {
+            color: #414141;
+            font-size: 13px;
+        }
+        body {
+            background-color: #eef4fa;
+            font-family: 'open sans', sans-serif;
+            justify-content: center;
+            align-items: center;
+            display: flex; /* Tambahkan properti ini */
+            justify-content: center; /* Tambahkan properti ini */
+            min-height: 100vh; /* Tambahkan properti ini */
+        }
+       
+        .form-container {
+            background-color: white;
+            padding: 40px 40px 40px 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 60 rgba (167, 167, 167, 75);
+            width: 520px;
+            display: block;
+            margin: 0 auto;
+            position:relative;
+            border-radius: 12px;
+            border: 1px solid #E5E5E5;
+            box-shadow: 0px 18px 43.1px 0px rgba(167, 167, 167, 0.25);
+
+        }
+
+        #form-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: row;
+            grid-column-gap: 40px;
+            margin-bottom: 45px;
+        }
+
+        .image {
+            max-width: 200px;
+            height: auto;
+        }
+
+        
+        input[type="text"], input[type="email"], input[type="password"], input[type="submit"] 
+        {
+            padding: 12px;
+            border: 1px solid #DBDBDB;
+            background: #F6F6F6;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        
+        input:focus {
+            font-weight: 700;
+            border-color: #007DFC;
+        }
+
+        .input-margin
+        { display: flex;
+        flex-direction: column;
+        gap: 5px;
+        }
+
+        #label-form {
+            margin-bottom: 4px;
+            font-weight: 700;
+            font-size: 13px;
+        }
+
+        .button-primary
+        {   background-color: #08090A;
+            border-radius: 4px;
+            padding: 12px;
+            color: white;
+            width: 100%;
+            font-style: normal;
+            
+        }
+
+        a {
+            color: #007DFC;
+            font-weight: 700;
+            text-decoration: none;
+        }
